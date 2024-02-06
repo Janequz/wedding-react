@@ -1,0 +1,91 @@
+:root {
+    --primary: #ffffff;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.btn--primary {
+    background-color: var(--primary);
+    color: #131313;
+    border: 1px solid var(--primary);
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn--outline.active {
+    background-color: #e88746;
+    color: #fff;
+    border: 1px solid var(--primary);
+}
+
+.btn--outline.active:hover {
+    background-color: #fff;
+    color: #e88746;
+    border: 1px solid var(--primary);
+}
+
+/*******************************/
+/*** BUTTONS FOR SIGNUP PAGE ***/
+/*******************************/
+
+.btn--outline--sign {
+    background-color: transparent;
+    color: #ffffff;
+    width: 14vw;
+    border: 2px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn--outline--sign.active {
+    background-color: #e88746;
+    color: #fff;
+    border: 1px solid var(--primary);
+}
+
+.btn--outline--sign.active:hover {
+    background-color: #fff;
+    color: #e88746;
+    border: 1px solid var(--primary);
+}
+
+/*******************************/
+
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+
+.btn--medium--nav {
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.btn--large--nav {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn--medium:hover, 
+.btn--large:hover {
+    background-color: #e88746;
+    color: #fff;
+    transition: all 0.3s ease-out;
+}

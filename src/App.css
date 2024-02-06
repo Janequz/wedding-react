@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: wedding;
+  src: url(../public/fonts/berkshireswash-regular.ttf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: wedding-2;
+  src: url(../public/fonts/Crimson-Roman.otf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@font-face {
+  font-family: wedding-3;
+  src: url(../public/fonts/AbrilFatface-Regular.otf);
+}
+
+@font-face {
+  font-family: wedding-4;
+  src: url(../public/fonts/Allura-Regular.otf);
+}
+
+@font-face {
+  font-family: wedding-5;
+  src: url(../public/fonts/amita-regular.ttf);
+}
+
+.home,
+.services,
+.products,
+.sign-up {
   display: flex;
-  flex-direction: column;
+  height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.onas {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.onas {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #121212;
+}
+
+.sign-up {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #121212;
 }
